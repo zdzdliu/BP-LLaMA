@@ -1,0 +1,15 @@
+# Core deep-learning stack
+torch>=2.4.0
+transformers==4.56.2
+trl>=0.23.0
+peft>=0.13.0
+datasets>=3.0.0
+accelerate>=0.34.0
+bitsandbytes>=0.45.0
+unsloth==2025.10.8
+unsloth_zoo==2025.10.9
+scipy
+
+# Data / utility
+numpy
+pandas

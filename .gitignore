@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+
+# Environment
+.venv/
+venv/
+env/
+
+# Outputs & checkpoints
+outputs/
+*.safetensors
+adapter_model/
+best_checkpoint/
+checkpoint-*/
+
+# Raw / large data files.
+# NOTE: dataset/train_dataset.json, valid_dataset.json and test_dataset.json are
+# de-identified example placeholders and are intentionally committed. Do NOT commit
+# real medical data; keep it outside the repository or add it here explicitly.
+dataset/*.mat
+*.pkl
+*.npy
+
+# Misc
+.DS_Store
+.ipynb_checkpoints/
+unsloth_compiled_cache/
